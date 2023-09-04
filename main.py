@@ -1,5 +1,5 @@
 import requests
-from scraper import Scraper
+from scrapper import Scrapper
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -15,7 +15,7 @@ def getColor(level):
             return 'yellow'
 
 def main():
-    sc = Scraper()
+    sc = Scrapper()
     username = input('Username: ')
     sessionID = input('LeetCode Session: ')
     csrf = input('csrf: ')

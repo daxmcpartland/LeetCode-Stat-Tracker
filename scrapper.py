@@ -1,5 +1,5 @@
 import requests
-class Scraper:
+class Scrapper:
     def getInfo (self, leetcodeSession, csrf, username):
         query = '''
         query skillStats($username: String!) {
